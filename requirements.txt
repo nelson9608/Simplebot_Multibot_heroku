@@ -1,0 +1,6 @@
+flask
+git+https://github.com/adbenitez/simplebot_manga@master#simplebot-manga
+pyTelegramBotAPI
+# required by admin.py plugin
+psutil
+
