@@ -22,10 +22,6 @@ python3 -m simplebot -a "$ADDR" plugin --add ./web_search.py
 python3 -c "import requests; r=requests.get('https://github.com/adbenitez/simplebot-scripts/raw/master/scripts/youtube.py'); open('youtube.py', 'wb').write(r.content)"
 python3 -m simplebot -a "$ADDR" plugin --add ./youtube.py
 
-# add the misc plugin
-python3 -c "import requests; r=requests.get('https://github.com/adbenitez/simplebot-scripts/raw/master/scripts/misc.py'); open('misc.py', 'wb').write(r.content)"
-python3 -m simplebot -a "$ADDR" plugin --add ./misc.py
-
 # add the image_search plugin
 python3 -c "import requests; r=requests.get('https://github.com/adbenitez/simplebot-scripts/raw/master/scripts/image_search.py'); open('image_search.py', 'wb').write(r.content)"
 python3 -m simplebot -a "$ADDR" plugin --add ./image_search.py
