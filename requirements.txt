@@ -1,6 +1,6 @@
 psycopg2-binary>=2.9.3
 flask
-git+https://github.com/adbenitez/simplebot_downloader@master#simplebot-downloader
+git+https://github.com/nelson9608/simplebot_downloader@master#simplebot-downloader
 git+https://github.com/adbenitez/simplebot_instantview@master#simplebot-instantview
 # required by youtube.py plugin
 youtube-dl
